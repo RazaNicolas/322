@@ -5,10 +5,9 @@ import io.kotest.matchers.shouldBe
 class proyectoTest : DescribeSpec({
     isolationMode = IsolationMode.InstancePerTest
 
+    describe("test") {
 
-    describe("test"){
-
-        it("test"){
+        it("test") {
             true shouldBe true
         }
     }
